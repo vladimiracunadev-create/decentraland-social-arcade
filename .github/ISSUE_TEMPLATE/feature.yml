@@ -1,0 +1,26 @@
+name: Propuesta de experiencia
+description: Propón una mejora que tenga sentido dentro de Decentraland.
+title: 'feat: '
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Necesidad del visitante
+      description: ¿Qué problema espacial, social o jugable resuelve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Explica cómo se descubre y usa mediante el avatar.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Impacto
+      description: Entidades, assets, estado compartido, permisos y rendimiento afectados.
+    validations:
+      required: true

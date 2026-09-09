@@ -1,0 +1,15 @@
+node_modules
+.git
+.github
+docs
+design
+tests
+scripts
+coverage
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+SECURITY.md
+ROADMAP.md
+AGENTS.md
+pnpm-lock.yaml

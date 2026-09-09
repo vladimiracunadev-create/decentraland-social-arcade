@@ -1,0 +1,31 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Decentraland Social Arcade",
+    "description": "Plaza social experimental con un juego insignia y arquitectura preparada para nuevos desafíos."
+  },
+  "owner": "",
+  "contact": {
+    "name": "Vladimir Acuña",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": ["game", "social", "arcade", "education"],
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "Entrada principal",
+      "default": true,
+      "position": { "x": 8, "y": 1, "z": 2 },
+      "cameraTarget": { "x": 8, "y": 1, "z": 8 }
+    }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {
+    "voiceChat": "enabled"
+  }
+}

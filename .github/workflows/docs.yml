@@ -1,0 +1,28 @@
+name: Documentación
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - 'scripts/check-docs.mjs'
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - 'scripts/check-docs.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Verificar enlaces internos
+        run: node scripts/check-docs.mjs
