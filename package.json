@@ -23,7 +23,7 @@
     "check": "pnpm repo:check && pnpm docs:check && pnpm lint && pnpm typecheck && pnpm test && pnpm format:check"
   },
   "dependencies": {
-    "@dcl/sdk": "7.27.0"
+    "@dcl/sdk": "7.28.0"
   },
   "devDependencies": {
     "@dcl/sdk-commands": "7.27.0",
