@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dcl/sdk':
-        specifier: 7.27.0
-        version: 7.27.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
+        specifier: 7.28.0
+        version: 7.28.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
     devDependencies:
       '@dcl/sdk-commands':
         specifier: 7.27.0
@@ -90,6 +90,9 @@ packages:
   '@dcl/ecs@7.27.0':
     resolution: {integrity: sha512-fVLbrTWC2F56iKnTbTM8vFUta/v6yMc6R6SBfwJdRHmd7CoKPI/pAfkmOozwOkj2pWZhUe+ggAKFnCUdh36meQ==}
 
+  '@dcl/ecs@7.28.0':
+    resolution: {integrity: sha512-4vapTJ9lja91V3KPTDgJmfe+owDCMZE9wSvtX8SIPgii1Itinp8W22a8uPz68k1vR1AeleTnM9kaN/zb/Z4apw==}
+
   '@dcl/fetch-component@1.1.2':
     resolution: {integrity: sha512-AzryeK3QwE13NgszhvIx9mib/S5+r3yZOiltFha/4rtJ27cs5TBf+jzQZKDFyhqDFEGBcEqOrJNAKYXCemp85Q==}
 
@@ -106,8 +109,8 @@ packages:
   '@dcl/inspector@7.36.3':
     resolution: {integrity: sha512-EwvXoZlXvDKZsK2qrRYG+Yia7qKHWgQUqbWY7e6zSVMffRDhhjVyS2FEipgrLqL0YMrTkJcfAsHaNnZgZsnP4A==}
 
-  '@dcl/js-runtime@7.27.0':
-    resolution: {integrity: sha512-QxmNAt7oIb1iSRuK6jp24ma2c+PJIsFKn/p96xlRy1/gPp2B4M/8yU0ukQqdS8XhKuPeIhUfPa/Lv7XleamFaQ==}
+  '@dcl/js-runtime@7.28.0':
+    resolution: {integrity: sha512-rjUy07dwND4YuD8qNtEm7Og8AR5DRAq+nwOrzfCY1beGUVLB/0M9k2/WlF7Q7K62pWXQeGC+ZvAiGqL+/ZUocQ==}
 
   '@dcl/linker-dapp@0.15.2':
     resolution: {integrity: sha512-aYUCfcQp0eMCZfDt+iV2wMBl3oVMsl68uMz6jSVpnfTFqEqMlCmfeh0uZTr/eVMkSvQl8JUSrsKE1aGSE//bNw==}
@@ -118,14 +121,17 @@ packages:
   '@dcl/protocol@1.0.0-32863591307.commit-0b3d285':
     resolution: {integrity: sha512-Bg6xVXQLEUGtsr2LA7hGHNnDe/xQj4RXH3hANCS9b6B7O4LNuf6VHudyt06nfzwogEonxtz1Mcrs17JNpCwuOQ==}
 
+  '@dcl/protocol@1.0.0-34239802138.commit-e89d7fa':
+    resolution: {integrity: sha512-e4aDTsi2HXXV6Ld4HJ52r85ungvu4QCwje1FlXvLcBvUSg9dKh43rv4ta8AG+V/btJ/08HGaXvNmy01HgMT+1A==}
+
   '@dcl/quests-client@1.0.3':
     resolution: {integrity: sha512-VwZbXuHsRbRcboUUlBrauuR7VQ7IQP31rWI7wNKIYfWroTH4Yw7Bby1au9JBPWPayM/zRDij4uSd9pMJtidsqw==}
 
   '@dcl/quests-manager@0.1.4':
     resolution: {integrity: sha512-IPB043+NbQB3om2FlmQGmaRxTokHaSM9o3a7sEL0yJgBb60mukCpMdNXxzdIcemixfV3EhIJQ2G8HgK30XKTkA==}
 
-  '@dcl/react-ecs@7.27.0':
-    resolution: {integrity: sha512-FDb4wshiOjzG9JocT463oq7mkJciVLb+Hj6uQ8blxJXSNMQv897GxlPRAOdetEd0HXiuIApQZUMgX8ZT0ziOrw==}
+  '@dcl/react-ecs@7.28.0':
+    resolution: {integrity: sha512-/xcdSiC2dZRuvzW79abFj4f2n2hJ5b5qL1FfBWiDCQAvBqHSTu3Q8LubmaMP1dx0B1i7TaHFfCALePy/bHqPJA==}
 
   '@dcl/rpc@1.1.2':
     resolution: {integrity: sha512-HgZe9umoD48ZQRaiKTss+vj/War/HjH/DBnb6pzd5fx2OMInaB1YYso3OZ4dCT/OC0AtNny8Tkb3CUJdYAvj/w==}
@@ -147,8 +153,13 @@ packages:
     engines: {node: '>=22.0.0'}
     hasBin: true
 
-  '@dcl/sdk@7.27.0':
-    resolution: {integrity: sha512-lNqwKFT2b9RDXafPP8VLjzXMbuq2yWIcMgDMDic7sKwnXpqRqNU5A+SHvlYoABDNYragp4Hh1rWII2UX6tKCJQ==}
+  '@dcl/sdk-commands@7.28.0':
+    resolution: {integrity: sha512-o5teR04vEs3D7YHhM/hv2epBukyv2vhgnfiXZy4MSxe9Heu2l3Q/3BzhnwrRoWn8a+kmI2nHc0RANZ3sTnTCGw==}
+    engines: {node: '>=22.0.0'}
+    hasBin: true
+
+  '@dcl/sdk@7.28.0':
+    resolution: {integrity: sha512-DE4OEGVhElNUEcUH4kmMJdczL7T5pbHzo/GWd6Db+PzEojHgbYK4XrDtyNi8FggQtmgEGWjQlSPSVCzC4pcBRw==}
 
   '@dcl/ts-proto@1.154.0':
     resolution: {integrity: sha512-2S5AKMMPVZrVfa/1WRy4/h0niikcbu3Yf6dCoudh7ScG7BsyKAPC3CMg6IJKHzrmWS593UZClq7YJof6Vt4O+w==}
@@ -1431,6 +1442,9 @@ packages:
   i18next-fs-backend@2.6.7:
     resolution: {integrity: sha512-nN2TIycyR/d+OVuLm1ugPyOlMprqPRnQ7QktBgn44F3H8l7TeTH4ffHJ7nUsd4QVJfetWW7/VZ3s+4g7FoAZUA==}
 
+  i18next-fs-backend@2.6.8:
+    resolution: {integrity: sha512-6w7An//zrZgwOrniDl0E3jXTPQayMexFnksuHrBA3dTyFbpbmmkKfPoI6SgaKq5gH5jXMzqrQpzN10jlKj6n7Q==}
+
   i18next@25.10.10:
     resolution: {integrity: sha512-cqUW2Z3EkRx7NqSyywjkgCLK7KLCL6IFVFcONG7nVYIJ3ekZ1/N5jUsihHV6Bq37NfhgtczxJcxduELtjTwkuQ==}
     peerDependencies:
@@ -2253,6 +2267,13 @@ snapshots:
       glob: 11.1.0
       mitt: 3.0.1
 
+  '@dcl/asset-packs@2.20.0(@dcl/ecs@7.28.0)':
+    dependencies:
+      '@dcl/ecs': 7.28.0
+      '@types/glob': 8.1.0
+      glob: 11.1.0
+      mitt: 3.0.1
+
   '@dcl/catalyst-contracts@4.4.2': {}
 
   '@dcl/core-commons@0.11.0':
@@ -2268,6 +2289,8 @@ snapshots:
   '@dcl/ecs-math@2.1.0': {}
 
   '@dcl/ecs@7.27.0': {}
+
+  '@dcl/ecs@7.28.0': {}
 
   '@dcl/fetch-component@1.1.2':
     dependencies:
@@ -2294,7 +2317,15 @@ snapshots:
     transitivePeerDependencies:
       - '@dcl/ecs'
 
-  '@dcl/js-runtime@7.27.0': {}
+  '@dcl/inspector@7.36.3(@dcl/ecs@7.28.0)':
+    dependencies:
+      '@babel/parser': 7.28.5
+      '@dcl/asset-packs': 2.20.0(@dcl/ecs@7.28.0)
+      ts-deepmerge: 7.0.3
+    transitivePeerDependencies:
+      - '@dcl/ecs'
+
+  '@dcl/js-runtime@7.28.0': {}
 
   '@dcl/linker-dapp@0.15.2': {}
 
@@ -2322,11 +2353,16 @@ snapshots:
       '@dcl/ts-proto': 1.154.0
       protobufjs: 7.2.4
 
+  '@dcl/protocol@1.0.0-34239802138.commit-e89d7fa':
+    dependencies:
+      '@dcl/ts-proto': 1.154.0
+      protobufjs: 7.2.4
+
   '@dcl/quests-client@1.0.3(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)':
     dependencies:
       '@dcl/protocol': 1.0.0-32863591307.commit-0b3d285
       '@dcl/rpc': 1.1.2
-      '@dcl/sdk': 7.27.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
+      '@dcl/sdk': 7.28.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
       mitt: 3.0.1
     transitivePeerDependencies:
       - '@well-known-components/interfaces'
@@ -2337,9 +2373,9 @@ snapshots:
 
   '@dcl/quests-manager@0.1.4': {}
 
-  '@dcl/react-ecs@7.27.0':
+  '@dcl/react-ecs@7.28.0':
     dependencies:
-      '@dcl/ecs': 7.27.0
+      '@dcl/ecs': 7.28.0
       react: 18.3.1
       react-reconciler: 0.29.2(react@18.3.1)
 
@@ -2412,13 +2448,51 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@dcl/sdk@7.27.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)':
+  '@dcl/sdk-commands@7.28.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)':
     dependencies:
-      '@dcl/ecs': 7.27.0
+      '@dcl/crypto': 3.7.0
+      '@dcl/ecs': 7.28.0
+      '@dcl/gltf-validator-ts': 1.0.14
+      '@dcl/hashing': 1.1.3(supports-color@7.2.0)
+      '@dcl/inspector': 7.36.3(@dcl/ecs@7.28.0)
+      '@dcl/linker-dapp': 0.15.2
+      '@dcl/mini-comms': 1.0.1-20230216163137.commit-a4c75be
+      '@dcl/protocol': 1.0.0-34239802138.commit-e89d7fa
+      '@dcl/quests-client': 1.0.3(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
+      '@dcl/quests-manager': 0.1.4
+      '@dcl/rpc': 1.1.2
+      '@dcl/schemas': 8.2.3-20230801124703.commit-ade94fc
+      '@segment/analytics-node': 3.1.0
+      '@well-known-components/env-config-provider': 1.2.0(@well-known-components/interfaces@1.5.2)
+      '@well-known-components/http-server': 2.1.0
+      '@well-known-components/logger': 3.1.3(@well-known-components/interfaces@1.5.2)
+      '@well-known-components/metrics': 2.1.0
+      archiver: 5.3.2
+      arg: 5.0.2
+      chokidar: 3.6.0
+      dcl-catalyst-client: 22.0.0
+      esbuild: 0.18.20
+      extract-zip: 2.0.1(supports-color@7.2.0)
+      i18next: 25.10.10(typescript@5.9.2)
+      i18next-fs-backend: 2.6.8
+      ignore: 5.3.2
+      qrcode: 1.5.4
+      typescript: 5.9.2
+      undici: 7.29.1
+    transitivePeerDependencies:
+      - '@well-known-components/interfaces'
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+
+  '@dcl/sdk@7.28.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)':
+    dependencies:
+      '@dcl/ecs': 7.28.0
       '@dcl/ecs-math': 2.1.0
-      '@dcl/js-runtime': 7.27.0
-      '@dcl/react-ecs': 7.27.0
-      '@dcl/sdk-commands': 7.27.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
+      '@dcl/js-runtime': 7.28.0
+      '@dcl/react-ecs': 7.28.0
+      '@dcl/sdk-commands': 7.28.0(@well-known-components/interfaces@1.5.2)(supports-color@7.2.0)
     transitivePeerDependencies:
       - '@well-known-components/interfaces'
       - bufferutil
@@ -3669,6 +3743,8 @@ snapshots:
 
   i18next-fs-backend@2.6.7: {}
 
+  i18next-fs-backend@2.6.8: {}
+
   i18next@25.10.10(typescript@5.9.2):
     dependencies:
       '@babel/runtime': 7.29.7
@@ -4271,7 +4347,7 @@ snapshots:
   ts-proto-descriptors@1.16.0:
     dependencies:
       long: 5.3.2
-      protobufjs: 7.2.4
+      protobufjs: 7.6.6
 
   ts-proto@1.181.2:
     dependencies:
